@@ -12,6 +12,7 @@
     "yarn": "^1.22.21"
   },
   "scripts": {
+    "build": "[my-framework] build --output public",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
